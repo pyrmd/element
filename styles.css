@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.lawg {
+    font-family: 'Playfair Display', regular;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 10px;
+}
+
+.brow {
+    font-family: 'Playfair Display', regular;
+    font-size: 18px;
+    word-spacing: 28pt;
+    padding: 10px;
+    text-align: center;
+}
+
+.text1 {
+    font-family: 'franklin-gothic-atf', light;
+    display:block;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 1mm;
+    letter-spacing: 0,5mm;
+    padding: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2 {
+    font-family: 'Playfair Display';
+    display:block;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 1mm;
+    letter-spacing: 0,5mm;
+    padding: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h1 {
+    font-size: 66px;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    line-height: 0;
+}
+
+h2 {
+    font-size: 22px;
+    color: rgb(28, 28, 28);
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+
+.vassal {
+    float: left;
+    width: 175px;
+    padding: 5px;
+}
+
+.vassar {
+    float: right;
+    width: 175px;
+    padding: 5px;
+}
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.map {
+    padding-left: 25%;
+    padding-right: 25%;
+    float: left;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .dang {
+    float: right;
+    width: 600px;
+    padding: 5px;
+}
